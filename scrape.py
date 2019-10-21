@@ -35,7 +35,7 @@ def whole():
         hottitle = submission.title
 
     #laat de text niet van het scherm af gaan
-    splithottitle = textwrap.wrap(hottitle, width=math.floor(0.013*imagewidth+28.3))
+    splithottitle = textwrap.wrap(hottitle, width=math.floor(0.011*imagewidth+27))
 
     #PIL image manipulatie
     draw = ImageDraw.Draw(image)
