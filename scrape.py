@@ -19,12 +19,12 @@ def whole():
     rootnumber = imagewidth**0.65
     specialsize = math.floor(0.65*rootnumber)
 
-    #reddit praw api 
-    reddit = praw.Reddit(client_id='WGZW4AoWp5zfHg', \
-                     client_secret='7pMQKY-2PPkFoAOWfK3WZPMxnXI', \
-                     user_agent='quotebot', \
-                     username='a_real_person_yea', \
-                     password='W8woordreddit6')
+    #reddit praw api moet je zelf invullen met eigen account
+    reddit = praw.Reddit(client_id='', \
+                     client_secret='', \
+                     user_agent='', \
+                     username='', \
+                     password='')
 
     #de goede subreddit
     subreddit = reddit.subreddit('Showerthoughts')
