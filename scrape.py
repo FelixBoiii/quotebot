@@ -69,6 +69,6 @@ def looping():
     print("done!")
     goagain = input("want to do it again? type: yes: ")
     if goagain == 'yes':
-        whole()
+        looping()
 
 looping()
